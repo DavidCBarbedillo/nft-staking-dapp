@@ -432,41 +432,25 @@ const refreshPage = ()=>{
                 <div className="row px-4 pt-2">
                   <div class="header">
                     <div style={{ fontSize: '25px', borderRadius: '14px', color: "#ffffff", fontWeight: "300" }}>NFT Staking Pool Active Rewards</div>
-                    <table className='table px-3 table-bordered table-light'>
-                      <thead className='thead-light'>
+                    <div style={{ color: "#39FF14", marginTop: "15px", fontSize: '25px', fontWeight: '500', textShadow: "1px 1px 2px #000000" }}>
+
+                    </div>
+                    <table className='table px-3 table-bordered table-dark'>
+                      <thead className='thead-light' style={{ borderRadius: "1px", boxShadow: "1px 1px 5px black" }}>
                         <tr>
-                          <th scope="col">Collection</th>
-                          <th scope="col">Rewards Per Day</th>
-                          <th scope="col">Exchangeable Items</th>
+                          <th scope="col" style={{ borderRadius: "1px", boxShadow: "1px 1px 5px black" }}>Collection</th>
+                          <th scope="col" style={{ borderRadius: "1px", boxShadow: "1px 1px 5px black" }}>Rewards Per Day</th>
                         </tr>
                       </thead>
                       <tbody>
-                        <tr>
-                          <td>NFT Bronze Collection</td>
-                          <td class="amount" data-test-id="rewards-summary-ads">
-                            <span class="amount">0.50</span>&nbsp;<span class="currency">NFTR</span>
-                          </td>
-                          <td class="exchange">
-                            <span class="amount">2</span>&nbsp;<span class="currency">NFTs/M</span>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>NFT Silver Collection</td>
-                          <td class="amount" data-test-id="rewards-summary-ac">
-                            <span class="amount">2.50</span>&nbsp;<span class="currency">NFTR</span>
-                          </td>
-                          <td class="exchange"><span class="amount">10</span>&nbsp;<span class="currency">NFTs/M</span>
-                          </td>
-                        </tr>
+                        
                         <tr className='stakegoldeffect'>
-                          <td>NFT Gold Collection</td>
-                          <td class="amount" data-test-id="rewards-summary-one-time"><span class="amount">1</span>&nbsp;<span class="currency">NFTR+</span>
+                          <td style={{ borderRadius: "1px", boxShadow: "1px 1px 5px black" }}>NFT S2E Collection</td>
+                          <td style={{ borderRadius: "1px", boxShadow: "1px 1px 5px black" }} class="amount" data-test-id="rewards-summary-one-time"><span class="amount">1</span>&nbsp;<span class="currency">NFTR+</span>
                           </td>
-                          <td class="exchange">
-                            <span class="amount">25 NFTs/M or </span>
-                            <span class="currency">100 NFTR/M</span>
-                          </td>
+                          
                         </tr>
+                        <div style={{ marginTop: "10px"}}></div>
                       </tbody>
                     </table>
 
@@ -476,7 +460,7 @@ const refreshPage = ()=>{
           </body>
         </div>
       </div>
-      <div className='row nftportal mt-3'>
+      <div className='row nftportal mt-3' style={{ marginTop: "15px", borderRadius: '14px'}}>
         <div className='col mt-4 ml-3'>
         <img src="polygon.png" width={'60%'}></img>
       </div>
