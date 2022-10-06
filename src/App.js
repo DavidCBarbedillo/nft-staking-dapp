@@ -390,14 +390,14 @@ const refreshPage = ()=>{
             <form  style={{ fontFamily: "Segoe UI" }} >
               <h2 style={{ borderRadius: '14px', fontWeight: "200", fontSize: "25px" }}>NFT Staking Vault </h2>
               <h6 style={{ fontWeight: "300" }}>First time staking?</h6>
-              <Button className="btn" onClick={enable} style={{ backgroundColor: "#0d6efd", boxShadow: "1px 1px 5px #000000" }} >Authorize Your Wallet</Button>
+              <Button className="btn" onClick={enable} style={{ boxShadow: "1px 1px 5px #000000", marginTop: "10px" }} >Authorize Your Wallet</Button>
               <div className="row px-3">
                 <div className="col">
                   <form class="stakingrewards" style={{ borderRadius: "25px", boxShadow: "1px 1px 5px black" }}>
                     <h5 style={{ color: "#FFFFFF", fontWeight: '300' }}>Your Vault Activity</h5>
                     <h6 style={{ color: "#FFFFFF" }}>Verify Staked Amount</h6>
-                    <Button onClick={verify} style={{ backgroundColor: "#ffffff10", boxShadow: "1px 1px 5px #000000" }} >Verify</Button>
-                    <table className='table mt-3 mb-5 px-3 table-dark'>
+                    <Button onClick={verify} style={{ boxShadow: "1px 1px 5px #000000", marginTop: "5px" }} >Verify</Button>
+                    <table className='mt-3 mb-5 px-3'>
                       <tr>
                         <td style={{ fontSize: "17px" }}>Your Staked NFTs:
                           <span style={{ backgroundColor: "#ffffff00", fontSize: "21px", color: "#39FF14", fontWeight: "500", textShadow: "1px 1px 2px #000000" }} id='yournfts'></span>
@@ -409,8 +409,8 @@ const refreshPage = ()=>{
                         </td>
                       </tr>
                       <tr>
-                        <td style={{ fontSize: "17px" }}>Unstake All Staked NFTs
-                          <Button onClick={unstakeall} className='mb-3' style={{ backgroundColor: "#ffffff10", boxShadow: "1px 1px 5px #000000" }}>Unstake All</Button>
+                        <td style={{ fontSize: "19px" }}>Unstake All Staked NFTs
+                          <Button onClick={unstakeall} className='btn mb-3 px-3' style={{ boxShadow: "1px 1px 5px #000000", marginTop: "10px" }}>Unstake All</Button>
                         </td>
                       </tr>
                     </table>
@@ -420,11 +420,11 @@ const refreshPage = ()=>{
                   <div className="col">
                     <form className='stakingrewards' style={{ borderRadius: "25px", boxShadow: "1px 1px 5px black", fontFamily: "Segoe UI" }}>
                       <h5 style={{ color: "#FFFFFF", fontWeight: '300' }}> Staking Rewards</h5>
-                      <Button onClick={rewardinfo} style={{ backgroundColor: "#ffffff10", boxShadow: "1px 1px 5px #000000" }} >Earned NFT Rewards</Button>
+                      <Button onClick={rewardinfo} style={{ boxShadow: "1px 1px 5px #000000", marginTop: "5px" }} >Earned NFT Rewards</Button>
                       <div id='earned' style={{ color: "#39FF14", marginTop: "5px", fontSize: '25px', fontWeight: '500', textShadow: "1px 1px 2px #000000" }}><p style={{ fontSize: "20px" }}>Earned Tokens</p></div>
                       <div className='col-12 mt-2'>
                         <div style={{ color: 'white' }}>Claim Rewards</div>
-                        <Button onClick={claimit} style={{ backgroundColor: "#ffffff10", boxShadow: "1px 1px 5px #000000" }} className="mb-2">Claim</Button>
+                        <Button onClick={claimit} style={{ boxShadow: "1px 1px 5px #000000", marginTop: "10px" }} className="mb-2">Claim</Button>
                       </div>
                     </form>
                   </div>

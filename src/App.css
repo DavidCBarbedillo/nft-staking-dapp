@@ -56,7 +56,7 @@
 }
 
 .nftapp {
-  background: #00004b;
+  background: black;
 }
 
 @-webkit-keyframes AnimationName {
@@ -82,7 +82,7 @@
   border-radius: 14px;
   padding: 5px 12px;
   font-size: medium;
-  font-weight: 200;
+  font-weight: 500;
 }
 
 .navbarfont {
@@ -95,7 +95,7 @@
 }
 
 .nftminter {
-    background: blue;
+    background: #00004b;
     font-family: "Segoe UI";
     font-weight: 200;
     color: white;
@@ -109,7 +109,7 @@
 }
 
 .nftstaker {
-  background: blue;
+  background: #00004b;
   font-family: "Segoe UI";
   font-weight: 200;
   color: white;
@@ -127,8 +127,14 @@
 .stakingrewards {
     font-family: "Segoe UI";
     font-weight: 200;
-    box-shadow: 1px 1px 15px black;
-    background: blue;
+    box-shadow: 1px 1px 15px #17b2ff;
+    background: black;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    border-radius: 20px !important;
+    -webkit-border: 20px !important;
+    -moz-border: 20px !important;
+    border: 20px !important;
 }
 
 .modal-style1 {
@@ -214,7 +220,7 @@ background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76
 }
 
 .nftportal {
-  background: blue;
+  background: #00004b;
 }
 
 .stakedcard {
