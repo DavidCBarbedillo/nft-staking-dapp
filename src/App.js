@@ -304,7 +304,7 @@ const refreshPage = ()=>{
     <div className="App nftapp">
         <nav class="navbar navbarfont navbarglow navbar-expand-md navbar-blue bg-blue mb-4">
           <div class="container-fluid" style={{ fontFamily: "Segoe UI" }}>
-            <a class="navbar-brand px-5" style={{ fontWeight: "800", fontSize: '25px' }} href="#"></a><img src="n2d-logo.png" width="9%" />
+            {/* <a class="navbar-brand px-5" style={{ fontWeight: "800", fontSize: '25px' }} href="#"></a><img src="n2d-logo.png" width="9%" /> */}
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -327,6 +327,7 @@ const refreshPage = ()=>{
           </div>
         </nav>
         <div className='container container-style'>
+        <img src="n2d-logo.png" width="100%" />
           <div className='col'>
             <body className='nftminter'>
           <form>
@@ -334,7 +335,7 @@ const refreshPage = ()=>{
               <div>
                 <h1 className="pt-2" style={{ fontWeight: "30" }}>NFT Minter</h1>
               </div>
-              <h3>{balance.result}/1000</h3>
+              <h3>{balance.result}/100</h3>
               <h6>Your Wallet Address</h6>
               <div className="pb-3" id='wallet-address' style={{
                 color: "#39FF14",
@@ -353,27 +354,28 @@ const refreshPage = ()=>{
               style={{ boxShadow: "1px 1px 5px #000000" }}
               onClick={nftamount => this.handleNFT(nftamount, "value")}
             >
-              <Button style={{ backgroundColor: "#0045db" }} value="1">1</Button>
-              <Button style={{ backgroundColor: "#0045db" }} value="2">2</Button>
-              <Button style={{ backgroundColor: "#0045db" }} value="3">3</Button>
-              <Button style={{ backgroundColor: "#0045db" }} value="4">4</Button>
-              <Button style={{ backgroundColor: "#0045db" }} value="5">5</Button>
+              <Button style={{ backgroundColor: "black" }} value="1">1</Button>
+              <Button style={{ backgroundColor: "black" }} value="2">2</Button>
+              <Button style={{ backgroundColor: "black" }} value="3">3</Button>
+              <Button style={{ backgroundColor: "black" }} value="4">4</Button>
+              <Button style={{ backgroundColor: "black" }} value="5">5</Button>
+              {/* <Button style={{ backgroundColor: "#0045db" }} value="5">5</Button> */}
             </ButtonGroup>
             <h6 className="pt-5" style={{ fontFamily: "Segoe UI", fontWeight: "300", fontSize: "18px" }}>Buy with your preferred crypto!</h6>
             <div className="row px-5 pb-5 row-style">
               <div className="col ">
-                <Button className="button-style" onClick={mint0} style={{ border: "0.2px", borderRadius: "14px", boxShadow: "1px 1px 5px #000000", backgroundColor: "#0045db" }}>
-                  <img src={"n2dr-logo.png"} width="100%" />
+                <Button className="button-style" onClick={mint0} style={{ border: "0.2px", borderRadius: "14px", boxShadow: "1px 1px 5px #000000", backgroundColor: "black" }}>
+                  <img src={"n2dr-logo.png"} width="50%" />
                 </Button>
               </div>
               <div className="col">
-                <Button className="button-style" style={{ border: "0.2px", borderRadius: "14px", boxShadow: "1px 1px 5px #000000", backgroundColor: "#0045db" }}>
-                  <img src="usdt.png" width="70%" />
-                </Button>
+                {/* <Button className="button-style" style={{ border: "0.2px", borderRadius: "14px", boxShadow: "1px 1px 5px #000000", backgroundColor: "black" }}>
+                  <img src="usdt.png" width="50%" />
+                </Button> */}
               </div>
               <div className="col">
-                <Button className="button-style" onClick={mintnative} style={{ border: "0.2px", borderRadius: "14px", boxShadow: "1px 1px 5px #000000", backgroundColor: "#0045db" }}>
-                  <img src="matic.png" width="70%" />
+                <Button className="button-style" onClick={mintnative} style={{ border: "0.2px", borderRadius: "14px", boxShadow: "1px 1px 5px #000000", backgroundColor: "black" }}>
+                  <img src="matic.png" width="50%" />
                 </Button>
               </div>
               <div>
@@ -445,8 +447,8 @@ const refreshPage = ()=>{
                       <tbody>
                         
                         <tr className='stakegoldeffect'>
-                          <td style={{ borderRadius: "1px", boxShadow: "1px 1px 5px black" }}>NFT S2E Collection</td>
-                          <td style={{ borderRadius: "1px", boxShadow: "1px 1px 5px black" }} class="amount" data-test-id="rewards-summary-one-time"><span class="amount">1</span>&nbsp;<span class="currency">NFTR+</span>
+                          <td style={{ borderRadius: "1px", boxShadow: "1px 1px 5px black" }}>SQUADA Vault NFT Collection</td>
+                          <td style={{ borderRadius: "1px", boxShadow: "1px 1px 5px black" }} class="amount" data-test-id="rewards-summary-one-time"><span class="amount">+1</span>&nbsp;<span class="currency">SQUADA ERC-20 Token</span>
                           </td>
                           
                         </tr>

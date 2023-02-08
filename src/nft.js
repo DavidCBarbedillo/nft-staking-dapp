@@ -113,7 +113,7 @@ export default function NFT() {
                         </div>
                         <div className="card-caption col-12 p-0">
                           <div className="card-body">
-                            <h5 className="mb-0">NewFilmTech Multipass Collection NFT #{nft.tokenId}</h5>
+                            <h5 className="mb-0">SQUADA Vault Collection NFT #{nft.tokenId}</h5>
                             <h5 className="mb-0 mt-2">Status<p style={{ color: "#39FF14", fontWeight: "bold", textShadow: "1px 1px 2px #000000" }}>Ready to Stake</p></h5>
                             <div className="card-bottom d-flex justify-content-between">
                               <input key={i} type="hidden" id='stakeid' value={nft.tokenId} />
@@ -137,7 +137,7 @@ export default function NFT() {
                           </div>
                           <div className="card-caption col-12 p-0">
                             <div className="card-body">
-                              <h5 className="mb-0">NewFilmTech Multipass Collection NFT #{nft.tokenId}</h5>
+                              <h5 className="mb-0">SQUADA Vault Collection NFT #{nft.tokenId}</h5>
                               <h5 className="mb-0 mt-2">Status<p style={{ color: "#15F4EE", fontWeight: "bold", textShadow: "1px 1px 2px #000000" }}>Currently Staked</p></h5>
                               <div className="card-bottom d-flex justify-content-between">
                                 <input key={i} type="hidden" id='stakeid' value={nft.tokenId} />
