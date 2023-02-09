@@ -332,7 +332,7 @@ const refreshPage = ()=>{
             <body className='nftminter'>
           <form>
           <div className='px-5'>
-            <input id="connectbtn" type="button" className="connectbutton" onClick={connectwallet} value="Connect Wallet"  />
+            <input id="connectbtn" type="button" className="connectbutton" onClick={connectwallet} value="Connect Wallet" style={{  marginTop: "5px", backgroundColor: "#0045db" }} />
           </div>
             <div className="row pt-3">
               <div>
