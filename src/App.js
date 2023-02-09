@@ -322,15 +322,18 @@ const refreshPage = ()=>{
               </ul>
             </div>
           </div>
-          <div className='px-5'>
+          {/* <div className='px-5'>
             <input id="connectbtn" type="button" className="connectbutton" onClick={connectwallet} value="Connect Wallet" />
-          </div>
+          </div> */}
         </nav>
         <div className='container container-style'>
         <img src="n2d-logo.png" width="100%" />
           <div className='col'>
             <body className='nftminter'>
           <form>
+          <div className='px-5'>
+            <input id="connectbtn" type="button" className="connectbutton" onClick={connectwallet} value="Connect Wallet"  />
+          </div>
             <div className="row pt-3">
               <div>
                 <h1 className="pt-2" style={{ fontWeight: "30" }}>NFT Minter</h1>
