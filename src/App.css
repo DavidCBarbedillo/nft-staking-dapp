@@ -79,14 +79,18 @@
   /* background: #f2f6ff;
   box-shadow: 0px 0px 0px #2e7db7;
   color: #2e7db7; */
-  background: #0045db;
-  box-shadow: 0px 0px 1px #17b2ff;
+  box-shadow: rgb(0, 0, 0) 1px 1px 5px; 
+  margin-top: 10px; 
+  background-color: rgb(0, 69, 219);
+  /* background: #0045db; */ 
+  /* box-shadow: 0px 0px 1px #17b2ff; */
   color: white;
   border-radius: 14px;
   padding: 5px 12px;
   font-size: medium;
   font-weight: 500;
-
+  height:50px;
+  width: 150px;
   -webkit-border-radius: 0px 0px 3px #17b2ff !important;
   -moz-border-radius: 0px 0px 3px #17b2ff !important;
   border-radius: 0px 0px 3px #17b2ff !important;
